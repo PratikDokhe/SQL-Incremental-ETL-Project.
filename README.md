@@ -17,3 +17,10 @@ Building a Incremental ETL for E-Commerce Sales Data using SQL_Server
  • Loads the transformed data into staging tables, then merges into target tables
 
  • Maintains a high-watermark (e.g. last loaded order_date) to support incremental loads
+
+
+About Me:
+I am Pratik Dokhe, I am a Passionate Learner and working as a Data Engineer at Accenture.
+This is My 2nd SQL Server Project.
+
+Linkedin: www.linkedin.com/in/pratik-dokhe
