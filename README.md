@@ -11,6 +11,9 @@ Building a Incremental ETL for E-Commerce Sales Data using SQL_Server
  ETL process that: 
 
  • Extracts new and changed records from source CSVs
+
  • Cleans common data issues (invalid formats, missing values, duplicates)
+
  • Loads the transformed data into staging tables, then merges into target tables
+
  • Maintains a high-watermark (e.g. last loaded order_date) to support incremental loads
