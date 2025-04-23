@@ -1,7 +1,13 @@
 
-create procedure target.load_target as 
+create or alter procedure target.load_target as 
 
 BEGIN
+	
+	print '##################################################################'
+
+	print ' ---------------- Loading Data into Stage tables ----------------'
+
+	print '##################################################################'
 
 	---- ###### Customers table ########
 	print '----------------------------------------------------------------'
@@ -210,8 +216,6 @@ BEGIN
 	print '-----------------------------------------------------------------------'
 
 END
-
-
 
 
 --exec target.load_target;
